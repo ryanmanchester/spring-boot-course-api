@@ -1,9 +1,20 @@
 package com.springbootstarter.topic;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Topic {
+	
+	@Id
 	private String id;
+	
 	private String name;
 	private String description;
+	
+	public Topic() {
+		
+	}
 	
 	public Topic(String id, String name, String description) {
 		this.id = id;
