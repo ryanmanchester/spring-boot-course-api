@@ -13,18 +13,9 @@ import org.springframework.stereotype.Service;
 public class TopicService {
 	
 	@Autowired
-	@Lazy
 	private TopicRepository topicRepository;
 	
-	List<Topic> topics = new ArrayList<>(Arrays.asList(
-			new Topic("1", "Spring Framework", "Spring Description"),
-			new Topic("2", "Java Basics", "Java for beginners"),
-			new Topic("3", "Selenium Advanced", "Advanced concepts for Selenium")
-			
-			));
-	
 	public List<Topic> getAllTopics() {
-		//return topics;
 		List<Topic> topics = new ArrayList<>();
 		topicRepository.findAll()
 					   .forEach(topics::add);
@@ -34,7 +25,6 @@ public class TopicService {
 	
 	
 	public void addTopic(Topic topic) {
-		//topics.add(topic);
 		topicRepository.save(topic);
 	}
 	
