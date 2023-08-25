@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Thu Aug 24 17:15:40 EDT 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018a-2967-258d-0000021d1a00 
-on database directory memory:/Users/ryanmanchester/git/spring-boot-course-api/course-api/8034854f-0bcf-4cbd-b30f-bb8879e09007 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406 
+Thu Aug 24 20:40:22 EDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018a-2a22-8ec5-00000216e780 
+on database directory memory:/Users/ryanmanchester/git/spring-boot-course-api/course-api/c52f3f2f-91fc-4c2b-a1da-fa666d95b21e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406 
 Loaded from file:/Users/ryanmanchester/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.7+7
