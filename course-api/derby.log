@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Thu Aug 24 20:40:22 EDT 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018a-2a22-8ec5-00000216e780 
-on database directory memory:/Users/ryanmanchester/git/spring-boot-course-api/course-api/c52f3f2f-91fc-4c2b-a1da-fa666d95b21e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42110406 
-Loaded from file:/Users/ryanmanchester/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
-java.vendor=Eclipse Adoptium
-java.runtime.version=17.0.7+7
+Fri Aug 25 14:24:45 EDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018a-2df1-06cb-000001173aa0 
+on database directory memory:/Users/ryanmanchester/git/spring-boot-course-api/course-api/37d360b1-623d-4fec-a526-70e85e7f523f with class loader org.springframework.boot.loader.LaunchedURLClassLoader@4e50df2e 
+Loaded from jar:file:/Users/ryanmanchester/git/spring-boot-course-api/course-api/target/course-api-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.16.1.1.jar!/
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.8+9-LTS-211
 user.dir=/Users/ryanmanchester/git/spring-boot-course-api/course-api
 os.name=Mac OS X
 os.arch=aarch64
